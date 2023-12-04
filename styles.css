@@ -1,0 +1,48 @@
+body{
+    background-color: #00bfff;
+}
+
+/* Wrapper for the whole content of the webpage */
+.wrapper {
+    
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* Content to the right of the side bar */
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+   
+   
+}
+/* Content that are images */
+.content img {
+    width: 900px;
+    height: 600px;
+
+}
+/* Side bar - filled with links and short description */
+.side-bar {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 1000px;
+    background-color: 	#202020;
+   
+    
+}
+/* Side bar wrapper in order to keep everything centered with margin */
+.side-bar-wrapper {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: solid 2px black;
+    text-align: center;
+}
